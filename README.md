@@ -60,3 +60,45 @@ frog-jump/
 │
 ├── .gitignore
 └── README.md
+```
+
+---
+
+## Getting Started
+
+### Prerequisites
+- **Java Development Kit (JDK):** Version 11 or higher installed on your machine.
+- **Git:** Version control CLI.
+
+---
+
+## How to Run
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/CarlosD25/frog-jump-algorithm.git
+cd frog-jump-algorithm
+```
+
+### 2. Compile the Source Code
+Compile the Java files inside the `src` directory and output the bytecode into the `bin` directory:
+```bash
+javac -d bin src/*.java
+```
+
+### 3. Run the Test Suite
+Execute the `Main` class using the compiled classpath:
+```bash
+java -cp bin Main
+```
+
+---
+
+## Expected Output
+```text
+Example 1: true
+Example 2: false
+Example 3 (Memoization dead end): false
+Unsorted: true
+Invalid start: false
+```
